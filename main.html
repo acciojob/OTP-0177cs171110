@@ -40,12 +40,22 @@
         border-radius: 5px;
         outline: none;
     }
+	#para{
+		background-color: #ADD8E6;
+		height: 40px;
+		width: 340px;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 150px
+	}
 </style>
 </head>
 <body>
 <div class="container">
-    <h1 id="verification_heading">OTP Verification</h1>
-    <p id="verification_subtext">Enter the 6-digit code sent to your phone</p>
+    <h1 id="verification_heading"> Verify Your Account</h1>
+    <p id="verification_subtext">We emailed you the six digit code to acciojob@email.com enter the code below to confirm your email address</p>
     <div class="code-container">
         <input type="text" class="code" maxlength="1">
         <input type="text" class="code" maxlength="1">
@@ -54,6 +64,7 @@
         <input type="text" class="code" maxlength="1">
         <input type="text" class="code" maxlength="1">
     </div>
+	<p id="para">this is disign only. We didn't actually send you an email as we don't have your email,right</p>
 </div>
 
 <script>
